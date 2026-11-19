@@ -5,8 +5,6 @@ A custom plugin for **Hayase** designed for learning Japanese while watching ani
 <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/209b9a49-b700-43c1-a8ee-da84120c826c" />
 
 
----
-
 ## Why This Plugin?
 
 Standard browser extensions (such as InterSub, Linglass, or Sublo) do not work inside Hayase for two reasons:
@@ -17,8 +15,6 @@ This plugin bypasses Electron's isolated content-script boundary, hooks into the
 
 <img width="1165" height="294" alt="image" src="https://github.com/user-attachments/assets/f484c6c2-6146-43e7-a803-21c35d0a4b2c" />
 
-
----
 
 ## Features
 
@@ -31,8 +27,6 @@ This plugin bypasses Electron's isolated content-script boundary, hooks into the
 
 <img width="388" height="826" alt="image" src="https://github.com/user-attachments/assets/0d1124ea-b5f4-496c-8aa2-c496d287703b" />
 
-
----
 
 ## Project Structure
 
