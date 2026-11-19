@@ -2,6 +2,9 @@
 
 A custom plugin for **Hayase** designed for learning Japanese while watching anime. It intercepts Hayase's internal **JASSUB (`libass` WebAssembly)** worker and **Matroska (`MKV`)** binary subtracks to display synchronized **Japanese, Romaji, English, and Turkish** subtitles simultaneously—complete with an interactive click-to-define dictionary and a torrent subtrack finder.
 
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/209b9a49-b700-43c1-a8ee-da84120c826c" />
+
+
 ---
 
 ## Why This Plugin?
@@ -11,6 +14,9 @@ Standard browser extensions (such as InterSub, Linglass, or Sublo) do not work i
 2. **Embedded MKV Subtracks:** Anime releases embed subtitles as binary `S_TEXT/ASS` or `S_TEXT/UTF8` tracks inside the `.mkv` container instead of separate `.srt` files.
 
 This plugin bypasses Electron's isolated content-script boundary, hooks into the `MAIN` execution context, and reads real Matroska `Cluster`/`Block` timestamps directly from the stream so subtitles stay accurately synced—even when seeking or scrubbing through an episode.
+
+<img width="1165" height="294" alt="image" src="https://github.com/user-attachments/assets/f484c6c2-6146-43e7-a803-21c35d0a4b2c" />
+
 
 ---
 
@@ -22,6 +28,9 @@ This plugin bypasses Electron's isolated content-script boundary, hooks into the
 - **Torrent Subtrack Detector & Filter:** Automatically badges releases in Hayase's episode torrent modal (`🟢 JPN + ENG Subtrack`, `🟡 MultiSub`, `🔵 ENG Only`) and adds a one-click filter to find dual-language releases (such as `ToonsHub` / `NF.WEB-DL` MSubs).
 - **External Subtitle & Drag-and-Drop Support:** Load or drag-and-drop external `.srt`, `.ass`, `.ssa`, or `.vtt` files directly onto the player (with a quick link to [Jimaku.cc](https://jimaku.cc) for Japanese scripts).
 - **Live Sync & Layout Controls:** Fine-tune subtitle timing (`-1s`, `-0.2s`, `0`, `+0.2s`, `+1s`) and toggle overlay position between the top and bottom of the screen.
+
+<img width="388" height="826" alt="image" src="https://github.com/user-attachments/assets/0d1124ea-b5f4-496c-8aa2-c496d287703b" />
+
 
 ---
 
