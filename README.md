@@ -27,6 +27,7 @@ This plugin bypasses Electron's isolated content-script boundary, hooks into the
 
 <img width="388" height="826" alt="image" src="https://github.com/user-attachments/assets/0d1124ea-b5f4-496c-8aa2-c496d287703b" />
 
+<img width="1600" height="869" alt="image" src="https://github.com/user-attachments/assets/8019011a-3094-46a4-9515-1906eadb820b" />
 
 ## Project Structure
 
